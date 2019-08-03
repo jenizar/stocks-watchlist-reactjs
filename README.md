@@ -7,7 +7,7 @@ Youtube video:
 
 https://youtu.be/aXjJzxw0m3s
 
-1. git clone https://github.com/nishitmehta1/reactjs-stocksWatchlist.git
+1. git clone https://github.com/jenizar/stocks-watchlist-reactjs.git
 
 2. cd stocks-watchlist-reactjs
 
