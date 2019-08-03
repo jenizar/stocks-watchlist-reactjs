@@ -1,5 +1,5 @@
 # stocks watchlist reactjs
- Deploying ReactJS Apps - Stock Watchlist - on SAP Cloud Platform
+ Deploying ReactJS Apps - Stocks Watchlist - on SAP Cloud Platform
 
 ![alt text](https://github.com/jenizar/stocks-watchlist-reactjs/blob/master/Screenshot.png)
 
