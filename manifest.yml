@@ -1,0 +1,7 @@
+---
+applications:
+- name: stocks-watchlist-reactjs
+  path: build/
+  instances: 1
+  buildpack: staticfile_buildpack
+  memory: 512M 

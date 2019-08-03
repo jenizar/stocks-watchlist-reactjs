@@ -1,0 +1,137 @@
+.mainview {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.search {
+  padding: 5px;
+  margin: auto;
+  width: 80%;
+  /* border: 1px solid black; */
+}
+
+.mystocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.searchBar {
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 28px;
+  border: none !important;
+  border-bottom: 1px solid #20555e !important;
+  background: #adcdd2 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+.searchBar::placeholder {
+  color: #0c2c30 !important;
+}
+
+.searchBar:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #89aaad !important;
+  color: #0f373c !important;
+}
+
+.addButton {
+  background-color: #33a0a5 !important;
+  border-color: #33a0a5 !important;
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #33a0a5 !important;
+}
+
+.btn-outline-primary {
+  color: #33a0a5 !important;
+  border-color: #33a0a5 !important;
+}
+
+.mystocks_div {
+  margin: auto;
+  width: 80%;
+}
+
+.yourList {
+  margin: 10px;
+  width: 100%;
+}
+
+.eachstock {
+  margin: 6px 4px;
+  width: 32%;
+}
+.eachstock .card {
+  box-shadow: 2px 5px 19px -12px #333333;
+  background: #e9f5f5;
+}
+
+.list-group-flush,
+.list-group-item {
+  background: #e9f5f5 !important;
+}
+
+.eachstock .card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.link-div {
+  margin-top: 20px;
+  height: 29px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.remove {
+  width: 6em;
+  height: 100%;
+  text-align: center;
+}
+
+.addButton {
+  font-size: 1.1em;
+  width: 90px;
+}
+
+.searchDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.suggestedStocks {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.eachSuggestion {
+  width: 100%;
+  margin-right: 5px;
+  box-shadow: 2px 5px 19px -12px #333333;
+}
+
+.eachSuggestion .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.eachSuggestion .card-title {
+  border-bottom: 1px solid black;
+}
