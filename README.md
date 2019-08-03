@@ -9,7 +9,7 @@ Youtube video:
 
 1. git clone https://github.com/nishitmehta1/reactjs-stocksWatchlist.git
 
-2. cd reactjs-stocksWatchlist
+2. cd stocks-watchlist-reactjs
 
 3. npm install
 
